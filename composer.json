@@ -1,0 +1,11 @@
+{
+  "name": "room204/addbrands",
+  "description": "Add new brands from a file",
+  "type": "magento2-module",
+  "version": "0.0.1",
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Room204\\AddBrands\\": ""}
+  }
+}
