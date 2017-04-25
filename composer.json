@@ -3,9 +3,17 @@
   "description": "Add new brands from a file",
   "type": "magento2-module",
   "version": "0.0.1",
+  "require": {
+    "mnsami/composer-custom-directory-installer": "1.1.*"
+  },
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
       "Room204\\AddBrands\\": ""}
+  },
+  "extra": {
+    "installer-paths":{
+      "app/code/Room204/AddBrands": ["room204/addbrands"]
+    }
   }
 }
