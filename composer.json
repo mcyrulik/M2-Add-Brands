@@ -1,7 +1,7 @@
 {
   "name": "room204/addbrands",
   "description": "Add new brands from a file",
-  "type": "composer",
+  "type": "package",
   "version": "0.0.1",
   "require": {
     "mnsami/composer-custom-directory-installer": "1.1.*"
